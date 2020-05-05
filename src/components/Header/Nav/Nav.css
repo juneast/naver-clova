@@ -1,0 +1,18 @@
+.Nav {
+    display: flex;
+    align-items: center;
+    margin : 0 20%;
+    background-color: rgba(0,0,0,0.3);
+    justify-content: space-between;
+    position: absolute;
+    top:0;
+    left:0;
+    width:60%;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    min-width: 1140px;
+}
+
+.Nav__logo {
+    cursor:pointer;
+}
