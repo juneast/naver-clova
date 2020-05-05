@@ -7,9 +7,12 @@ const Nav = () => {
 
     return (
         <div className="Nav">
-            <img className="Nav__logo"src={logo} alt=""/>
-            <NavList/>
-            <NavButton/>
+            <div className="Nav__inner">
+                <img className="Nav__logo"src={logo} alt=""/>
+                <NavList/>
+                <NavButton/>
+            </div>
+            
         </div>
     )
 

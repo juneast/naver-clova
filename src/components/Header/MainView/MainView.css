@@ -1,8 +1,5 @@
 .MainView{
-    position: absolute;
-    top:0;
-    left:0;
-    min-width: 1300px;
+    min-width: 1140px;
 }
 
 .MainView__Wrapper{

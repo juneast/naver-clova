@@ -1,0 +1,29 @@
+.SectionA {
+    margin: 150px auto;
+    text-align : center;
+    width:1140px;
+    box-sizing:border-box;
+    min-width:1140px;
+    
+}
+
+.SectionA__Products {
+    display: flex;
+    justify-content:space-between;
+    margin-top:70px;
+}
+
+.SectionA__description {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.SectionA__description strong{
+    font-size:36px;
+    font-weight:bolder;
+    margin-bottom:30px;
+}
+.SectionA__description span{
+    font-size:19px;
+    margin-bottom:15px;
+}
