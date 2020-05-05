@@ -1,0 +1,42 @@
+.Footer {
+    height:130px;
+    background : rgb(25,25,25);
+    color:rgb(86,86,86);
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    font-size:13px;
+}
+.Footer__Wrapper {
+    width:1140px;
+    margin:0 auto;
+}
+.upper {
+    margin-bottom:20px;
+}
+.upper, .down{
+    display:flex;
+    justify-content:space-between;
+}
+
+.Footer__icon * {
+    padding-left:20px;
+}
+.Footer__left >:first-child {
+    padding-right:10px;
+    border-right:1px solid rgb(86,86,86);
+}
+.Footer__left >:nth-child(2) {
+    padding-left:10px;
+}
+.Footer__middle >span{
+    font-weight:bolder;
+}
+.Footer__right * {
+    padding: 0 10px;
+    border-right:1px solid rgb(86,86,86);
+}
+.Footer__right >:last-child {
+    border:0;
+    padding-right:0;
+}
