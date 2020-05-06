@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import {Header,SectionA,SectionB, SectionC,SectionD,SectionE,Footer} from './components/index'
-
 function App() {
   return (
     <div className="App">
@@ -15,5 +14,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
